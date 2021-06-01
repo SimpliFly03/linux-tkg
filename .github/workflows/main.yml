@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Arch makepkg
-        uses: py7hon/arch-makepkg@v0.0.2
+        uses: SimpliFly03/arch-makepkg@0.0.3
            
