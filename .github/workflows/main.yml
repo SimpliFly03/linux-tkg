@@ -28,4 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Arch makepkg
         uses: SimpliFly03/arch-makepkg@0.0.3
+        with:
+          path: /github/workspace
            
