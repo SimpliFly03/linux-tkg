@@ -20,7 +20,7 @@ jobs:
           sed -i 's/anbox=""/anbox="false"/' customization.cfg
           sed -i 's/processor_opt=""/processor_opt="skylake"/' customization.cfg
           sed -i 's/compiler=""/compiler="llvm"/' customization.cfg
-          sed -i 's/lto_mode=""/lto_mode="full"/' customization.cfg
+          sed -i 's/lto_mode=""/lto_mode="thin"/' customization.cfg
           sed -i 's/sched_yield_type=""/sched_yield_type="0"/' customization.cfg
           sed -i 's/tickless=""/tickless="1"/' customization.cfg
           sed -i 's/compileroptlevel="1"/compileroptlevel="2"/' customization.cfg
